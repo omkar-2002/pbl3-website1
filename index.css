@@ -89,6 +89,7 @@ nav h3 {
 
 .home {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   width: "90%";
   margin: 50px 70px 0px 70px;
@@ -273,21 +274,22 @@ z-index: -1;
 .home1{
   margin-top: 100px;
   width: 100%;
-  background-color: #FF8C32;
+  background-color: #E14D2A;
   border-radius: 60px;
-  padding: 40px 80px;
+  padding: 20px 80px;
   position: relative;
-  height: 400px;
+  /* height: 400px; */
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 .appdiv{
   flex-basis: 30%;
+  position: relative;
+  top: -80px;
 }
 .appimg{
   height: 400px;
-  position: absolute;
-  top: -50px;
 }
 .content1{
   flex-basis: 30%;
@@ -327,6 +329,7 @@ z-index: -1;
   flex-direction: row;
   flex-basis: 35%;
   justify-content: space-around;
+  height: 60%;
 }
 .storeimg{
   width: 70px;
@@ -464,4 +467,34 @@ flex-direction: row;
   color: black;
   cursor: pointer;
   transition: 0.6s;
+}
+
+.circlePizz{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  background-color: #da3510;
+  border-radius: 75px;
+  right: 0;
+  top: -50px;
+}
+
+.homeCircle{
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: #faeb15;
+  position: absolute;
+  top: 70%;
+  right: 0;
+}
+
+.insidecircle{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #2ae152;
+  position: absolute;
+  top: 10px;
+  left: -10px;
 }

@@ -1,0 +1,10 @@
+{"data":[
+    {
+        "title": "HamBurger",
+        "type": "Burger",
+        "reviews": "23456",
+        "category": "veg",
+        "calories": "26-30",
+        "price": "5.67$"
+    }
+]}
